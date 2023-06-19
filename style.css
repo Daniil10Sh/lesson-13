@@ -1,0 +1,90 @@
+h1{
+    margin: 32px 0;
+    font-family: 'Chronicle Display';
+font-weight: 600;
+font-size: 88px;
+line-height: 100px;
+text-transform: capitalize;
+color: #FFFFFF;
+width: 950px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0B1D26;
+    background-image: url(png.123.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Gilroy'; 
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin-right: 40px;
+
+}
+.line{
+    display: inline-block;
+    width: 72px;
+height: 2px;
+background-color: #FBD784;
+}
+div{
+    text-align: center;
+   
+}
+h2 {
+    color: #FBD784;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-left: 32px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 80px 200px;
+}
+.account {
+    display: flex;
+    align-items: center;
+}
+.account a {
+    margin-left: 8px;
+}
+#description {
+    display: flex;
+    justify-content: center;
+}
+#description p {
+    background-color: #FBD784;
+    width: 72px;
+    height: 2px;
+}
+.description {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.flex {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+.account img{
+    width: 20px;
+    height: 20px;
+}
